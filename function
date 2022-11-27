@@ -1,0 +1,81 @@
+ #include<stdio.h>
+void neg()
+{
+	int a;
+	printf("\n enter the vlue of a ");
+	scanf("%d",&a);
+	if(a<0)
+	{
+		printf(" \n a is negative");
+		
+	}
+	else
+	{
+		printf("\n a is possitive");
+	}
+}
+
+    void add()
+    {
+    	int a,b;
+    	printf("\n\n enter the value of a");
+    	scanf("%d",&a);
+    	printf("\n enter the value of b");
+    	scanf("%d",&b);
+    	printf("\n add = %d",a+b);
+	}
+	
+	void sub()
+	{
+		int a,b;
+    	printf("\n\n enter the value of a");
+    	scanf("%d",&a);
+    	printf("\n enter the value of b");
+    	scanf("%d",&b);
+    	printf("\n sub = %d",a-b);
+	}
+	
+	void mul()
+	{
+		int a,b;
+    	printf("\n\n enter the value of a");
+    	scanf("%d",&a);
+    	printf("\n enter the value of b");
+    	scanf("%d",&b);
+    	printf("\n mul = %d",a*b);
+	}
+      void cube()
+      {
+      	int a;
+      	printf("\n\n enter the number= ");
+      	scanf("%d",&a);
+      	printf("cube = %d",a*a);
+	  }
+	  void max()
+	  { 
+	    int a,b;
+        printf("\n\n enter the number for a= ");
+      	scanf("%d",&a);
+      	printf("\n\n enter the number for b= ");
+      	scanf("%d",&b);
+      	if(a>b)
+      	{
+      		printf("\n\n a is max");
+      		
+		  }
+		  else
+		  {
+		  	printf("\n\n b is max");
+		  }
+	  }
+       main()
+      {
+	    
+		 
+		 neg();
+	     add();
+	     sub();
+	     mul();
+	     cube();
+	     max();
+      }
